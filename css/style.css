@@ -22,7 +22,7 @@ html{
 }
 
 body{
-    background-image: url("img/noiseTexture.png");
+    background-image: url("../img/noiseTexture.png");
     background-color: #99ccff;
 }
 
