@@ -20,3 +20,7 @@ and open the template in the editor.
 html{
     font-family: arial;
 }
+
+body{
+    background-color: #111;
+}
