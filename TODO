@@ -1,0 +1,8 @@
++ add themes for things like characters or scenes / landscapes to add a theme function
++ add extra character attributes as modifier
++ add new scene type "object" with object shape modifier (e.g. spaceship in form of a cylinder)
+
+o make art styles and palettes a filter to choose which to include (or not selecting anything to leave empty)
+o read generation settings from files
+
+-
