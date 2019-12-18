@@ -9,7 +9,8 @@ and open the template in the editor.
 */
 
 #idea{
-    border: 1px solid black;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.5);
     min-height: 1em;
     padding: 1em;
     margin: 1em 0 0 0;
@@ -28,5 +29,6 @@ body{
 
 #pageContent{
     margin: 3em;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 0 0 16px 4px rgba(0,0,0,0.5);
+    padding: 2em;
 }
