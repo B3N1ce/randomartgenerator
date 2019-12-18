@@ -22,6 +22,11 @@ html{
 }
 
 body{
-    background-image: url("img/npiseTexture.png");
-    background-color: activeborder;
+    background-image: url("img/noiseTexture.png");
+    background-color: #99ccff;
+}
+
+#pageContent{
+    margin: 3em;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }

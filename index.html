@@ -12,27 +12,30 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
-        <h1>Generate art ideas</h1>
-        <h2>Scene type settings</h2>
-        <form name="sceneTypeOptions">
-            <input type="checkbox" name="portrait" id="portrait" value="portrait" checked="checked" /><label for="portrait">Character portrait</label>
-            <input type="checkbox" name="actionPortrait" id="actionPortrait" value="action portrait" checked="checked" /><label for="actionPortrait">Action portrait</label>
-            <input type="checkbox" name="fightingScene" id="fightingScene" value="fighting scene" checked="checked" /><label for="fightingScene">Fighting scene</label>
-            <input type="checkbox" name="landscape" id="landscape" value="landscape" checked="checked" /><label for="landscape">Landscape</label>
-            <input type="checkbox" name="scene" id="scene" value="scene" checked="checked" /><label for="scene">Scene</label>
-            <input type="checkbox" name="actionScene" id="actionScene" value="action scene" checked="checked" /><label for="actionScene">Action scene</label>
-        </form>
-        <h2>Modifiers</h2>
-            <input type="checkbox" name="includeTimeOfDay" id="includeTimeOfDay" value="includeTimeOfDay" checked="checked"/><label for="includeTimeOfDay">include time of day</label>
-            <input type="checkbox" name="addSecondCharacterProperty" id="addSecondCharacterProperty" value="addSecondCharacterProperty" /><label for="addSecondCharacterProperty">Add a second character property</label>
-            <!--<input type="checkbox" name="modifyObjectShape" id="modifyObjectShape" value="modifyObjectShape" /><label for="modifyObjectShape">Modify object shape</label>-->
-        <h2>Other generation settings</h2>
-        <form name="otherOptions">
-            <input type="checkbox" name="includeStyle" id="includeStyle" value="includeStyle" /><label for="includeStyle">include style</label>
-            <input type="checkbox" name="includePalette" id="includePalette" value="includePalette" /><label for="includePalette">include palette</label>
-        </form>
-        <div id="idea"></div>
-        <button onclick="generate()">Generate</button>
+        <div id="pageContent">
+            <h1>Generate art ideas</h1>
+            <h2>Scene type settings</h2>
+            <form name="sceneTypeOptions">
+                <input type="checkbox" name="portrait" id="portrait" value="portrait" checked="checked" /><label for="portrait">Character portrait</label>
+                <input type="checkbox" name="actionPortrait" id="actionPortrait" value="action portrait" checked="checked" /><label for="actionPortrait">Action portrait</label>
+                <input type="checkbox" name="fightingScene" id="fightingScene" value="fighting scene" checked="checked" /><label for="fightingScene">Fighting scene</label>
+                <input type="checkbox" name="landscape" id="landscape" value="landscape" checked="checked" /><label for="landscape">Landscape</label>
+                <input type="checkbox" name="scene" id="scene" value="scene" checked="checked" /><label for="scene">Scene</label>
+                <input type="checkbox" name="actionScene" id="actionScene" value="action scene" checked="checked" /><label for="actionScene">Action scene</label>
+            </form>
+            <h2>Modifiers</h2>
+                <input type="checkbox" name="includeTimeOfDay" id="includeTimeOfDay" value="includeTimeOfDay" checked="checked"/><label for="includeTimeOfDay">include time of day</label>
+                <input type="checkbox" name="addSecondCharacterProperty" id="addSecondCharacterProperty" value="addSecondCharacterProperty" /><label for="addSecondCharacterProperty">Add a second character property</label>
+                <!--<input type="checkbox" name="modifyObjectShape" id="modifyObjectShape" value="modifyObjectShape" /><label for="modifyObjectShape">Modify object shape</label>-->
+            <h2>Other generation settings</h2>
+            <form name="otherOptions">
+                <input type="checkbox" name="includeStyle" id="includeStyle" value="includeStyle" /><label for="includeStyle">include style</label>
+                <input type="checkbox" name="includePalette" id="includePalette" value="includePalette" /><label for="includePalette">include palette</label>
+            </form>
+            <div id="idea"></div>
+            <button onclick="generate()">Generate</button>
+        </div>
+        
         <script src="js/loadGenerationData.js"></script>
         <script>
             loadGenerationData();
