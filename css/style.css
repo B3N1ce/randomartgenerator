@@ -22,5 +22,6 @@ html{
 }
 
 body{
-    background-color: #111;
+    background-image: url("img/npiseTexture.png");
+    background-color: activeborder;
 }
