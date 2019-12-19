@@ -8,25 +8,21 @@ and open the template in the editor.
     Author     : JessBenjamin
 */
 
-#idea{
-    border: 1px solid rgba(0,0,0,0.5);
-    box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.5);
-    min-height: 1em;
-    padding: 1em;
-    margin: 1em 0 0 0;
-    font-size: 24px;
-    text-align: center;
-    background: #f9f9f9;
-    border-radius: 2em;
+html{
+    /*font-family: arial;*/
+    font-family: 'Dancing Script', cursive;
+    color: #50435e;
+    text-shadow: 0 0 8px white;
 }
 
-html{
+input,label{
     font-family: arial;
 }
 
 body{
-    background-image: url("../img/noiseTexture.png");
-    background-color: #99ccff;
+    background-image: url("../img/background.jpg");
+    /*background-image: url("../img/noiseTexture.png");*/
+    background-color: #3e4d75;
 }
 
 #pageContent{
@@ -37,8 +33,32 @@ body{
     border-right: 1px solid rgba(0,0,0,0.25);
     border-bottom: 1px solid rgba(0,0,0,0.5);
     border-left: 1px solid rgba(0,0,0,0.25);
-    background-color: rgba(200,200,200,0.7);
+    /*background-color: rgba(200,200,200,0.7);*/
     border-radius: 2em;
+    background-image: url("../img/background_blur.jpg");
+    background-position: -3em -3em;
+}
+
+#idea{
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 8px 0 rgba(0,0,0,0.5);
+    min-height: 1.2em;
+    padding: 1em;
+    margin: 0 0 0 0;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    border-radius: 2em;
+    text-shadow: 0 0 8px white, -2px 2px 0 white, -3px 3px 4px rgba(0,0,0,0.5);
+}
+
+h1{
+    text-shadow: 0 0 8px white, -2px 2px 0 white, -3px 3px 4px rgba(0,0,0,0.5);
+}
+
+h2{
+    text-shadow: 0 0 8px white, -2px 2px 0 white, -3px 3px 4px rgba(0,0,0,0.5);
 }
 
 button{
@@ -46,7 +66,9 @@ button{
     border-radius: 2em;
     padding: 0.5em 1em;
     margin: 1em 0 1em 0;
-    font-size: 1em;
+    font-family: 'Dancing Script',cursive; 
+    font-weight: bold;
+    font-size: 1.5em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     outline: none;
     -webkit-transition: all 0.1s;
@@ -62,4 +84,15 @@ button:hover{
 button:active{
     box-shadow: inset 0 4px 4px 0 rgba(0,0,0,0.5);
     outline: none;
+}
+
+.generator{
+/*    border-top: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    border-left: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+    border-radius: 2em;
+    padding: 2em;*/
+    margin: 1em 0;
 }

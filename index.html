@@ -10,6 +10,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="pageContent">
@@ -32,8 +33,10 @@ and open the template in the editor.
                 <input type="checkbox" name="includeStyle" id="includeStyle" value="includeStyle" /><label for="includeStyle">include style</label>
                 <input type="checkbox" name="includePalette" id="includePalette" value="includePalette" /><label for="includePalette">include palette</label>
             </form>
-            <div id="idea"></div>
-            <button onclick="generate()">Generate</button>
+            <div class="generator">
+                <button onclick="generate()">Generate!</button>
+                <div id="idea"></div>
+            </div>
         </div>
         
         <script src="js/loadGenerationData.js"></script>
